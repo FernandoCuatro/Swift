@@ -1,7 +1,6 @@
 //
 //  ContentView.swift
 //  SwiftUIFramework
-//
 //  Created by Fernando Cuatro on 3/2/24.
 //
 
@@ -31,7 +30,7 @@ struct ContentView: View {
             // los Spacer
             // Este empuja los elementos para que ocupen lo maximo posible
             Spacer()
-            
+
             // El ZStack es para presentar profundidad
             // Es decir del fondo para enfrente
             // Y entre ellos se centra

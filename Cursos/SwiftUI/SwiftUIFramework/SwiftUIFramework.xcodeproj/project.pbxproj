@@ -13,6 +13,7 @@
 		E975D6C92B9437F600101607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E975D6C82B9437F600101607 /* Preview Assets.xcassets */; };
 		E975D6D42B9437F600101607 /* SwiftUIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D6D32B9437F600101607 /* SwiftUIFrameworkTests.swift */; };
 		E975D6DF2B9437F600101607 /* SwiftUIFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D6DE2B9437F600101607 /* SwiftUIFrameworkUITests.swift */; };
+		E9BA9AB02B96DEF700E793D9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA9AAF2B96DEF700E793D9 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E975D6DA2B9437F600101607 /* SwiftUIFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E975D6DE2B9437F600101607 /* SwiftUIFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameworkUITests.swift; sourceTree = "<group>"; };
 		E975D6E02B9437F600101607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BA9AAF2B96DEF700E793D9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				E975D6C12B9437F300101607 /* SwiftUIFrameworkApp.swift */,
 				E975D6C32B9437F300101607 /* ContentView.swift */,
+				E9BA9AAF2B96DEF700E793D9 /* ImageView.swift */,
 				E975D6C52B9437F600101607 /* Assets.xcassets */,
 				E975D6CA2B9437F600101607 /* Info.plist */,
 				E975D6C72B9437F600101607 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BA9AB02B96DEF700E793D9 /* ImageView.swift in Sources */,
 				E975D6C42B9437F300101607 /* ContentView.swift in Sources */,
 				E975D6C22B9437F300101607 /* SwiftUIFrameworkApp.swift in Sources */,
 			);
