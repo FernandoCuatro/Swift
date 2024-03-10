@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9F867A92B9CEEBC003F1CC8 /* fruteroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F867A82B9CEEBC003F1CC8 /* fruteroApp.swift */; };
+		E9F867AB2B9CEEBC003F1CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F867AA2B9CEEBC003F1CC8 /* ContentView.swift */; };
+		E9F867AD2B9CEEBE003F1CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F867AC2B9CEEBE003F1CC8 /* Assets.xcassets */; };
+		E9F867B02B9CEEBE003F1CC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F867AF2B9CEEBE003F1CC8 /* Preview Assets.xcassets */; };
+		E9F867BB2B9CEEBF003F1CC8 /* fruteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F867BA2B9CEEBF003F1CC8 /* fruteroTests.swift */; };
+		E9F867C62B9CEEBF003F1CC8 /* fruteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F867C52B9CEEBF003F1CC8 /* fruteroUITests.swift */; };
+		E9F868152B9CF39F003F1CC8 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F868142B9CF39F003F1CC8 /* Header.swift */; };
+		E9F8681D2B9CF5FC003F1CC8 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8681C2B9CF5FC003F1CC8 /* Constantes.swift */; };
+		E9F868222B9CFAD0003F1CC8 /* Elemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F868212B9CFAD0003F1CC8 /* Elemento.swift */; };
+		E9F8682F2B9D02DC003F1CC8 /* ElementosCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8682E2B9D02DC003F1CC8 /* ElementosCard.swift */; };
+		E9F868372B9D09BA003F1CC8 /* ElementoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F868362B9D09BA003F1CC8 /* ElementoFeed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F867B72B9CEEBF003F1CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F8679D2B9CEEBC003F1CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F867A42B9CEEBC003F1CC8;
+			remoteInfo = frutero;
+		};
+		E9F867C22B9CEEBF003F1CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F8679D2B9CEEBC003F1CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F867A42B9CEEBC003F1CC8;
+			remoteInfo = frutero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9F867A52B9CEEBC003F1CC8 /* frutero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frutero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F867A82B9CEEBC003F1CC8 /* fruteroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruteroApp.swift; sourceTree = "<group>"; };
+		E9F867AA2B9CEEBC003F1CC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9F867AC2B9CEEBE003F1CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F867AF2B9CEEBE003F1CC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9F867B12B9CEEBE003F1CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F867B62B9CEEBF003F1CC8 /* fruteroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruteroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F867BA2B9CEEBF003F1CC8 /* fruteroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruteroTests.swift; sourceTree = "<group>"; };
+		E9F867BC2B9CEEBF003F1CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F867C12B9CEEBF003F1CC8 /* fruteroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruteroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F867C52B9CEEBF003F1CC8 /* fruteroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruteroUITests.swift; sourceTree = "<group>"; };
+		E9F867C72B9CEEBF003F1CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F868142B9CF39F003F1CC8 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		E9F8681C2B9CF5FC003F1CC8 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		E9F868212B9CFAD0003F1CC8 /* Elemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elemento.swift; sourceTree = "<group>"; };
+		E9F8682E2B9D02DC003F1CC8 /* ElementosCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementosCard.swift; sourceTree = "<group>"; };
+		E9F868362B9D09BA003F1CC8 /* ElementoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementoFeed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F867A22B9CEEBC003F1CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867B32B9CEEBF003F1CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867BE2B9CEEBF003F1CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F8679C2B9CEEBC003F1CC8 = {
+			isa = PBXGroup;
+			children = (
+				E9F867A72B9CEEBC003F1CC8 /* frutero */,
+				E9F867B92B9CEEBF003F1CC8 /* fruteroTests */,
+				E9F867C42B9CEEBF003F1CC8 /* fruteroUITests */,
+				E9F867A62B9CEEBC003F1CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F867A62B9CEEBC003F1CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F867A52B9CEEBC003F1CC8 /* frutero.app */,
+				E9F867B62B9CEEBF003F1CC8 /* fruteroTests.xctest */,
+				E9F867C12B9CEEBF003F1CC8 /* fruteroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F867A72B9CEEBC003F1CC8 /* frutero */ = {
+			isa = PBXGroup;
+			children = (
+				E9F867D92B9CF1AE003F1CC8 /* body */,
+				E9F867D82B9CF1A5003F1CC8 /* header */,
+				E9F867D72B9CF198003F1CC8 /* menu */,
+				E9F867D62B9CF18D003F1CC8 /* util */,
+				E9F867A82B9CEEBC003F1CC8 /* fruteroApp.swift */,
+				E9F867AA2B9CEEBC003F1CC8 /* ContentView.swift */,
+				E9F867AC2B9CEEBE003F1CC8 /* Assets.xcassets */,
+				E9F867B12B9CEEBE003F1CC8 /* Info.plist */,
+				E9F867AE2B9CEEBE003F1CC8 /* Preview Content */,
+			);
+			path = frutero;
+			sourceTree = "<group>";
+		};
+		E9F867AE2B9CEEBE003F1CC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9F867AF2B9CEEBE003F1CC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9F867B92B9CEEBF003F1CC8 /* fruteroTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F867BA2B9CEEBF003F1CC8 /* fruteroTests.swift */,
+				E9F867BC2B9CEEBF003F1CC8 /* Info.plist */,
+			);
+			path = fruteroTests;
+			sourceTree = "<group>";
+		};
+		E9F867C42B9CEEBF003F1CC8 /* fruteroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F867C52B9CEEBF003F1CC8 /* fruteroUITests.swift */,
+				E9F867C72B9CEEBF003F1CC8 /* Info.plist */,
+			);
+			path = fruteroUITests;
+			sourceTree = "<group>";
+		};
+		E9F867D62B9CF18D003F1CC8 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8681C2B9CF5FC003F1CC8 /* Constantes.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		E9F867D72B9CF198003F1CC8 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8682E2B9D02DC003F1CC8 /* ElementosCard.swift */,
+				E9F868212B9CFAD0003F1CC8 /* Elemento.swift */,
+				E9F868362B9D09BA003F1CC8 /* ElementoFeed.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		E9F867D82B9CF1A5003F1CC8 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				E9F868142B9CF39F003F1CC8 /* Header.swift */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		E9F867D92B9CF1AE003F1CC8 /* body */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = body;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F867A42B9CEEBC003F1CC8 /* frutero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F867CA2B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "frutero" */;
+			buildPhases = (
+				E9F867A12B9CEEBC003F1CC8 /* Sources */,
+				E9F867A22B9CEEBC003F1CC8 /* Frameworks */,
+				E9F867A32B9CEEBC003F1CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frutero;
+			productName = frutero;
+			productReference = E9F867A52B9CEEBC003F1CC8 /* frutero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F867B52B9CEEBF003F1CC8 /* fruteroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F867CD2B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "fruteroTests" */;
+			buildPhases = (
+				E9F867B22B9CEEBF003F1CC8 /* Sources */,
+				E9F867B32B9CEEBF003F1CC8 /* Frameworks */,
+				E9F867B42B9CEEBF003F1CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F867B82B9CEEBF003F1CC8 /* PBXTargetDependency */,
+			);
+			name = fruteroTests;
+			productName = fruteroTests;
+			productReference = E9F867B62B9CEEBF003F1CC8 /* fruteroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F867C02B9CEEBF003F1CC8 /* fruteroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F867D02B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "fruteroUITests" */;
+			buildPhases = (
+				E9F867BD2B9CEEBF003F1CC8 /* Sources */,
+				E9F867BE2B9CEEBF003F1CC8 /* Frameworks */,
+				E9F867BF2B9CEEBF003F1CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F867C32B9CEEBF003F1CC8 /* PBXTargetDependency */,
+			);
+			name = fruteroUITests;
+			productName = fruteroUITests;
+			productReference = E9F867C12B9CEEBF003F1CC8 /* fruteroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F8679D2B9CEEBC003F1CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E9F867A42B9CEEBC003F1CC8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E9F867B52B9CEEBF003F1CC8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E9F867A42B9CEEBC003F1CC8;
+					};
+					E9F867C02B9CEEBF003F1CC8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E9F867A42B9CEEBC003F1CC8;
+					};
+				};
+			};
+			buildConfigurationList = E9F867A02B9CEEBC003F1CC8 /* Build configuration list for PBXProject "frutero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F8679C2B9CEEBC003F1CC8;
+			productRefGroup = E9F867A62B9CEEBC003F1CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F867A42B9CEEBC003F1CC8 /* frutero */,
+				E9F867B52B9CEEBF003F1CC8 /* fruteroTests */,
+				E9F867C02B9CEEBF003F1CC8 /* fruteroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F867A32B9CEEBC003F1CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F867B02B9CEEBE003F1CC8 /* Preview Assets.xcassets in Resources */,
+				E9F867AD2B9CEEBE003F1CC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867B42B9CEEBF003F1CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867BF2B9CEEBF003F1CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F867A12B9CEEBC003F1CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F867AB2B9CEEBC003F1CC8 /* ContentView.swift in Sources */,
+				E9F868372B9D09BA003F1CC8 /* ElementoFeed.swift in Sources */,
+				E9F8681D2B9CF5FC003F1CC8 /* Constantes.swift in Sources */,
+				E9F8682F2B9D02DC003F1CC8 /* ElementosCard.swift in Sources */,
+				E9F868152B9CF39F003F1CC8 /* Header.swift in Sources */,
+				E9F867A92B9CEEBC003F1CC8 /* fruteroApp.swift in Sources */,
+				E9F868222B9CFAD0003F1CC8 /* Elemento.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867B22B9CEEBF003F1CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F867BB2B9CEEBF003F1CC8 /* fruteroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F867BD2B9CEEBF003F1CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F867C62B9CEEBF003F1CC8 /* fruteroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F867B82B9CEEBF003F1CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F867A42B9CEEBC003F1CC8 /* frutero */;
+			targetProxy = E9F867B72B9CEEBF003F1CC8 /* PBXContainerItemProxy */;
+		};
+		E9F867C32B9CEEBF003F1CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F867A42B9CEEBC003F1CC8 /* frutero */;
+			targetProxy = E9F867C22B9CEEBF003F1CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9F867C82B9CEEBF003F1CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F867C92B9CEEBF003F1CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F867CB2B9CEEBF003F1CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"frutero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = frutero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.frutero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F867CC2B9CEEBF003F1CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"frutero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = frutero/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.frutero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9F867CE2B9CEEBF003F1CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.fruteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frutero.app/frutero";
+			};
+			name = Debug;
+		};
+		E9F867CF2B9CEEBF003F1CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.fruteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frutero.app/frutero";
+			};
+			name = Release;
+		};
+		E9F867D12B9CEEBF003F1CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.fruteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = frutero;
+			};
+			name = Debug;
+		};
+		E9F867D22B9CEEBF003F1CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandocuatro.fruteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = frutero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F867A02B9CEEBC003F1CC8 /* Build configuration list for PBXProject "frutero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F867C82B9CEEBF003F1CC8 /* Debug */,
+				E9F867C92B9CEEBF003F1CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F867CA2B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "frutero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F867CB2B9CEEBF003F1CC8 /* Debug */,
+				E9F867CC2B9CEEBF003F1CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F867CD2B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "fruteroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F867CE2B9CEEBF003F1CC8 /* Debug */,
+				E9F867CF2B9CEEBF003F1CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F867D02B9CEEBF003F1CC8 /* Build configuration list for PBXNativeTarget "fruteroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F867D12B9CEEBF003F1CC8 /* Debug */,
+				E9F867D22B9CEEBF003F1CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F8679D2B9CEEBC003F1CC8 /* Project object */;
+}
