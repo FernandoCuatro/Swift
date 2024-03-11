@@ -16,11 +16,10 @@ struct ElementoFeed: View {
                 
                 ForEach(1..<6) {
                     i in
-                    ElementosCard(imageNombre: "comida\(i)",
+                    ElementosCard(imageNombre: "venta\(i)",
                         frutaImage: "comida\(i)",
                         titulo: titles[i-1])
                         .foregroundColor(.black)
-                        .shadow(radius: 10)
                 }
                 .padding(.leading)
                 .padding(.vertical, 5)
