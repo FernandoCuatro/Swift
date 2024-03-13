@@ -16,6 +16,7 @@
 		E9EBD95B2BA13E49002ED65C /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBD95A2BA13E49002ED65C /* Programmer.swift */; };
 		E9EBD9602BA13F33002ED65C /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBD95F2BA13F32002ED65C /* RowView.swift */; };
 		E9EBD9652BA14561002ED65C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBD9642BA14561002ED65C /* ListView.swift */; };
+		E9EBD96A2BA15157002ED65C /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBD9692BA15157002ED65C /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E9EBD95A2BA13E49002ED65C /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 		E9EBD95F2BA13F32002ED65C /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		E9EBD9642BA14561002ED65C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E9EBD9692BA15157002ED65C /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E9EBD9312BA13C97002ED65C /* Preview Content */,
 				E9EBD95F2BA13F32002ED65C /* RowView.swift */,
 				E9EBD9642BA14561002ED65C /* ListView.swift */,
+				E9EBD9692BA15157002ED65C /* ListDetailView.swift */,
 			);
 			path = SwiftUIListas;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				E9EBD92E2BA13C91002ED65C /* ContentView.swift in Sources */,
 				E9EBD95B2BA13E49002ED65C /* Programmer.swift in Sources */,
 				E9EBD9652BA14561002ED65C /* ListView.swift in Sources */,
+				E9EBD96A2BA15157002ED65C /* ListDetailView.swift in Sources */,
 				E9EBD92C2BA13C91002ED65C /* SwiftUIListasApp.swift in Sources */,
 				E9EBD9602BA13F33002ED65C /* RowView.swift in Sources */,
 			);
