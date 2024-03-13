@@ -14,6 +14,7 @@
 		E975D6D42B9437F600101607 /* SwiftUIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D6D32B9437F600101607 /* SwiftUIFrameworkTests.swift */; };
 		E975D6DF2B9437F600101607 /* SwiftUIFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E975D6DE2B9437F600101607 /* SwiftUIFrameworkUITests.swift */; };
 		E9BA9AB02B96DEF700E793D9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA9AAF2B96DEF700E793D9 /* ImageView.swift */; };
+		E9EBD8FD2BA12E81002ED65C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBD8FC2BA12E81002ED65C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E975D6DE2B9437F600101607 /* SwiftUIFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameworkUITests.swift; sourceTree = "<group>"; };
 		E975D6E02B9437F600101607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BA9AAF2B96DEF700E793D9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		E9EBD8FC2BA12E81002ED65C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E975D6B52B9437F200101607 = {
 			isa = PBXGroup;
 			children = (
+				E9EBD8FC2BA12E81002ED65C /* MapView.swift */,
 				E975D6C02B9437F300101607 /* SwiftUIFramework */,
 				E975D6D22B9437F600101607 /* SwiftUIFrameworkTests */,
 				E975D6DD2B9437F600101607 /* SwiftUIFrameworkUITests */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BA9AB02B96DEF700E793D9 /* ImageView.swift in Sources */,
+				E9EBD8FD2BA12E81002ED65C /* MapView.swift in Sources */,
 				E975D6C42B9437F300101607 /* ContentView.swift in Sources */,
 				E975D6C22B9437F300101607 /* SwiftUIFrameworkApp.swift in Sources */,
 			);
