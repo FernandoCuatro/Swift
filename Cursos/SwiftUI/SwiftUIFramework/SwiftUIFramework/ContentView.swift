@@ -25,7 +25,7 @@ struct ContentView: View {
             Text("Estamos probando este textazo")
                 .font(.largeTitle)
                 .padding()
-            
+
             // Es importante tambien concer y saber como usar
             // los Spacer
             // Este empuja los elementos para que ocupen lo maximo posible
