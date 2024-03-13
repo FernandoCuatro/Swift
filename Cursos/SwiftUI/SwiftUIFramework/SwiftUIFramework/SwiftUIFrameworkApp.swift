@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUIFrameworkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Aqui pondremos el main
+            // Es decir lo primero que se abra en la aplicacion
+            // Cuando se ejecute en un
+            MainView()
         }
     }
 }

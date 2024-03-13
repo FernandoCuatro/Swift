@@ -32,7 +32,6 @@ struct ImageView: View {
                 .frame(width: 300, height: 300, alignment: .center)
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .shadow(color: Color.black, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                .background(Color.white)
                 .overlay(Circle().stroke(
                     Color.yellow,
                     lineWidth: 5
