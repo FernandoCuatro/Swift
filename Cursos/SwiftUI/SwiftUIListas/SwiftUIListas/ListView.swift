@@ -19,9 +19,20 @@ private let programmers = [
 
 struct ListView: View {
     var body: some View {
-        // Para pintar una lista
-        List (programmers, id: \.id) {
-            Programmer in RowView(programmer: Programmer)
+        // Este componente permite que toda la pantalla
+        // Tenga navegacion
+        NavigationView {
+            // Para pintar una lista
+            List (programmers, id: \.id) {
+                // Vamos a usar el Navigation link
+                // Para irnos para otra pantalla
+                Programmer in
+                NavigationLink ( destination: ListDetailView(programmer: Programmer) ) {
+                    RowView(programmer: Programmer)
+                }
+            }
+            // Ahora demosle un titulo
+            .navigationTitle("Programmers")
         }
     }
 }
