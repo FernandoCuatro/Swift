@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9CD63032BA2BA93002DE8F0 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
 		E9EBD91F2BA13C91002ED65C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 		E9EBD92A2BA13C91002ED65C /* SwiftUIListas */ = {
 			isa = PBXGroup;
 			children = (
+				E9CD63032BA2BA93002DE8F0 /* PropertyWrappers */,
 				E9EBD9592BA13D84002ED65C /* Data */,
 				E9EBD92B2BA13C91002ED65C /* SwiftUIListasApp.swift */,
 				E9EBD92D2BA13C91002ED65C /* ContentView.swift */,
