@@ -37,7 +37,7 @@ struct ListDetailView: View {
 struct ListDetailView_Previews: PreviewProvider {
     static var previews: some View {
         ListDetailView(
-            programmer: Programmer(id: 1, name: "Fernando Cuatro", languages: "PHP, Js, C#, Java", avatar: Image(systemName: "person.fill"))
+            programmer: Programmer(id: 1, name: "Fernando Cuatro", languages: "PHP, Js, C#, Java", avatar: Image(systemName: "person.fill"), favorite: true)
         )
     }
 }

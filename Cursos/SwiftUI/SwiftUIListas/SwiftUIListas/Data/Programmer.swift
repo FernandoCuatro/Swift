@@ -15,4 +15,5 @@ struct Programmer {
     var name: String
     var languages: String
     var avatar: Image
+    var favorite: Bool // para guardar un favorito
 }

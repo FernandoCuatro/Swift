@@ -30,6 +30,12 @@ struct RowView: View {
             }
             
             Spacer()
+            
+            // Validamos si el contacto tiene el true de favorito
+            if programmer.favorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -41,7 +47,7 @@ struct RowView_Previews: PreviewProvider {
             Programmer(id: 1,
                        name: "Fernando Cuatro",
                        languages: "PHP, Js, Java, C#, Swift",
-                       avatar: Image(systemName: "person.fill")
+                       avatar: Image(systemName: "person.fill"), favorite: false
                        )
             )
     }
