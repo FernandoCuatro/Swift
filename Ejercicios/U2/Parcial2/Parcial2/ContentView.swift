@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  app1
+//  Parcial2
 //
-//  Created by Fernando Cuatro on 2/24/24.
+//  Created by Fernando Cuatro on 3/16/24.
 //
 
 import SwiftUI
@@ -10,15 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        HStack() {
-            Text("ETPS4")
+        VStack {
+            Header()
             
-            VStack() {	
-                Text("Fernando Cuatro")
-                Text("25-0871-2020")
+            ScrollView {
+                Contenido()
             }
+            
+            Menu()
         }
-        
+
     }
 }
 
